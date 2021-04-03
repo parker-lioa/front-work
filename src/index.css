@@ -1,0 +1,107 @@
+*{
+    margin:0
+}
+
+header{
+    width: 100;
+    height: 400px;
+    background: #0abde3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title{
+    position: absolute;
+    top:100px;
+    margin: 20px;
+    font-size:3rem;
+    font-weight: 700;
+}
+
+.switchs{
+    margin:20px;
+    position: absolute;
+    top:200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    padding:10px 5px;
+    margin:10px 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.options-container{
+    position: relative;
+    top:0%;
+    padding-left: 0;
+    margin: auto;
+    height: 90px;
+    width: 120px;
+    overflow-y: auto;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+li{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    width: 120px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-bottom: white 1px solid;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.spot{
+    width: 99%;
+    min-height: 240px;
+    margin:15px auto;
+    display: flex;
+    border:#8395a7 5px solid;
+    border-radius: 10px;
+}
+
+.spot-name{
+    margin: auto;
+    flex:1;
+    text-align: center;
+}
+
+.spot-address{
+    margin: auto;
+    flex:1;
+    text-align: center;
+}
+
+.spot-description{
+    margin:auto;
+    flex:2;
+    text-align: center;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
